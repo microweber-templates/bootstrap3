@@ -1,0 +1,21 @@
+
+
+.navbar {
+	border-radius: 0px;
+}
+
+
+.product-price-holder {
+	text-align:center;
+	padding:10px;
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.post-content ul {
+
+list-style:inside;
+	
+}
