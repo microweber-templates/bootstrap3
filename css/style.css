@@ -4,6 +4,10 @@
 	border-radius: 0px;
 }
 
+.mw-rotator .thumbnail {
+	border: none;
+	 
+}
 
 .product-price-holder {
 	text-align:center;
@@ -18,4 +22,8 @@
 
 list-style:inside;
 	
+}
+
+#content {
+ margin-top:55px;	
 }

@@ -8,7 +8,8 @@
     <module type="shop/cart"  data-content-id="<?php print POST_ID; ?>" />
 
     <p class="element">&nbsp;</p>
-    <p class="element">&nbsp;</p>
+    <h4 class="element sidebar-title">Shop Categories</h4>
+	<module type="categories" content_id="<?php print PAGE_ID; ?>" />
 
 </div>
 
