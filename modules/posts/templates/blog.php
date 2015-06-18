@@ -25,7 +25,7 @@ max-width:100%
   <div class="well clearfix post-single" itemscope itemtype="<?php print $schema_org_item_type_tag ?>">
     <div class="row">
       <?php if(!isset($show_fields) or $show_fields == false or in_array('thumbnail', $show_fields)): ?>
-      <div class="col-md-4 mw-post-list-blog-image"> <a  href="<?php print $item['link'] ?>" itemprop="url"><img src="<?php print thumbnail($item['image'], 270); ?>" alt="<?php print addslashes($item['title']); ?>" itemprop="image"   ></a> </div>
+      <div class="col-md-4 mw-post-list-blog-image"> <a  href="<?php print $item['link'] ?>" itemprop="url"><img src="<?php print thumbnail($item['image'], 270); ?>" alt="<?php print addslashes($item['title']); ?>" itemprop="image" class="img-responsive"    ></a> </div>
       <?php endif; ?>
       <div class="col-md-8">
         <div class="mw-post-list-blog-content">

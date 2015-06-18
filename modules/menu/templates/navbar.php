@@ -23,7 +23,7 @@ $(document).ready(function() {
 
 </script>
 
-<div class="navbar-collapse collapse">
+<div class="xnavbar-collapse xcollapse">
   <?php
 $menu_filter['ul_class'] = 'nav navbar-nav';
    $menu_filter['ul_class_deep'] = 'dropdown-menu';

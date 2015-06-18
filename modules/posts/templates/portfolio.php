@@ -16,7 +16,7 @@ $count = 0;
 $len =  count($data);
 ?>
 <?php
-    foreach ($data as $item):
+    foreach ($data as $item): 
 
     $count++;
 ?>
@@ -26,7 +26,7 @@ $len =  count($data);
   <?php } ?>
   <div class="col-md-4 portfolio-item">
     <?php if($item['tn_image']):  ?>
-    <a href="<?php print $item['link'] ?>"> <img class="img-responsive"  src="<?php print $item['tn_image']; ?>" alt="<?php print addslashes($item['title']) ?>"> </a>
+    <a href="<?php print $item['link'] ?>" class="post-list-item-img" style="background-image:url('<?php print $item['tn_image']; ?>')"> </a>
     <?php endif; ?>
     <h3> <a href="<?php print $item['link'] ?>"><?php print $item['title'] ?></a> </h3>
     <p><?php print $item['description']; ?></p>

@@ -19,7 +19,7 @@ description: Columns
     <div class="col-sm-4" itemscope itemtype="<?php print $schema_org_item_type_tag ?>">
       <div class="columns-product-container">
         <?php if($show_fields == false or in_array('thumbnail', $show_fields)): ?>
-        <a class="img-polaroid img-rounded" href="<?php print $item['link'] ?>" itemprop="url"> <img itemprop="image" src="<?php print thumbnail($item['image'], 290, 210); ?>" alt="<?php print $item['title'] ?>" title="<?php print $item['title'] ?>"  /></a>
+        <a class="img-polaroid img-rounded" href="<?php print $item['link'] ?>" itemprop="url"> <img class="img-responsive"  itemprop="image" src="<?php print thumbnail($item['image'], 290, 210); ?>" alt="<?php print $item['title'] ?>" title="<?php print $item['title'] ?>"  /></a>
         <?php endif; ?>
         <?php if($show_fields == false or in_array('title', $show_fields)): ?>
         <h3 itemprop="name"><a class="lead" href="<?php print $item['link'] ?>"><?php print $item['title'] ?></a></h3>

@@ -18,20 +18,27 @@
 <?php else: ?>
 <link rel="stylesheet" id="bootstrap_theme" href="<?php print $theme_css_file; ?>" type="text/css" media="all">
 <?php endif; ?>
-
 <link rel="stylesheet" href="{TEMPLATE_URL}css/style.css" type="text/css" media="all">
-
-
-
- <script type="text/javascript" src="{TEMPLATE_URL}js/bootstrap.min.js"></script>
+<script type="text/javascript" src="{TEMPLATE_URL}js/bootstrap.min.js"></script>
 <script type="text/javascript" src="{TEMPLATE_URL}js/default.js"></script>
 </head>
 <body>
 <div role="navigation" class="navbar navbar-default navbar-static" id="menu">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <div class="edit" field="navbar-brand" rel="global"><a href="<?php print site_url(); ?>" class="navbar-brand">Bootstrap Template</a></div>
+  <div class="container">
+    <div class="edit" field="boostrap3-template-navbar-brand" rel="global">
+      <div class="mw-row">
+        <div class="mw-col" style="width: 20%">
+          <div class="mw-col-container">
+            <module type="logo" id="logo_header" default-text="Bootstrap" class="navbar-header" />
+          </div>
+        </div>
+        <div class="mw-col"  style="width: 80%">
+          <div class="mw-col-container">
+            <module type="menu" name="header_menu" id="main-navigation"  template="navbar"   />
+          </div>
+        </div>
+      </div>
     </div>
-    <module type="menu" name="header_menu" id="main-navigation"  template="navbar"  />
   </div>
 </div>
+<strong> 

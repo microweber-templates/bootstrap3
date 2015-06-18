@@ -27,7 +27,7 @@ $len =  count($data);
   <div class="col-sm-4 col-lg-4 col-md-4">
     <div class="thumbnail">
       <?php if($item['tn_image']):  ?>
-      <a href="<?php print $item['link'] ?>"> <img  src="<?php print $item['tn_image']; ?>" alt="<?php print addslashes($item['title']) ?>"> </a>
+    <a href="<?php print $item['link'] ?>" class="post-list-item-img" style="background-image:url('<?php print $item['tn_image']; ?>')"> </a>
       <?php endif; ?>
       <div class="caption">
         <h4 class="text-center"><a href="<?php print $item['link'] ?>"><?php print $item['title'] ?></a></h4>

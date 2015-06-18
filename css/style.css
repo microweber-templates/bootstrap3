@@ -17,7 +17,12 @@
 .portfolio-item {
     margin-bottom: 25px;
 }
-
+.post-list-item-img, a.post-list-item-img {
+	display:block;
+ 	height:170px;
+	background-repeat:no-repeat;
+	background-position:center center;
+}
 .post-content ul {
 
 list-style:inside;
@@ -27,3 +32,4 @@ list-style:inside;
 #content {
  margin-top:55px;	
 }
+
