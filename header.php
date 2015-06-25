@@ -15,14 +15,16 @@
 <?php $theme_css_file = get_option("bootswatch_theme_css_file", "bootswatch_theme"); ?>
 <?php if($theme_css_file == ''): ?>
 <link rel="stylesheet" id="bootstrap_theme" href="<?php print template_url() ?>css/default.css" type="text/css" media="all">
+<?php elseif($theme_css_file == 'bootstra_386'): ?>
+}
+<link rel="stylesheet" id="bootstrap_theme" href="<?php print template_url() ?>css/styles/bootstra_386/css/bootstrap.css" type="text/css" media="all">
 <?php else: ?>
 <link rel="stylesheet" id="bootstrap_theme" href="<?php print $theme_css_file; ?>" type="text/css" media="all">
 <?php endif; ?>
 <link rel="stylesheet" href="{TEMPLATE_URL}css/style.css" type="text/css" media="all">
 <script type="text/javascript" src="{TEMPLATE_URL}js/bootstrap.min.js"></script>
 <script type="text/javascript" src="{TEMPLATE_URL}js/default.js"></script>
-</head>
-<body>
+</head><body>
 <div role="navigation" class="navbar navbar-default navbar-static" id="menu">
   <div class="container">
     <div class="edit" field="boostrap3-template-navbar-brand" rel="global">

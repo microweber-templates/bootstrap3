@@ -7,6 +7,8 @@ $(document).ready(function() {
 	  
 	    if (this.value == '') {
             window.parent.$('head link#bootstrap_theme').attr('href', '<?php print template_url() ?>css/default.css');
+        } else if (this.value == 'bootstra_386') {
+            window.parent.$('head link#bootstrap_theme').attr('href', '<?php print template_url() ?>css/styles/bootstra_386/css/bootstrap.css');
         }
         else {
              window.parent.$('head link#bootstrap_theme').attr('href', this.value);
@@ -31,5 +33,15 @@ $(document).ready(function() {
         <span></span><span><?php print $item['name'] ?></span> </label>
     </li>
     <?php endforeach; ?>
+    
+    
+    <li>
+      <label class="mw-ui-check">
+        <input class="mw_option_field" option-group="bootswatch_theme" type="radio" <?php if($theme == 'bootstra_386'): ?> checked="" <?php endif; ?> name="bootswatch_theme_css_file" value="bootstra_386">
+        <span></span><span>Bootstra.386</span> </label>
+    </li>
+    
+    
+    
   </ul>
 </div>
