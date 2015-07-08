@@ -17,7 +17,7 @@ description: Blog
 <div id="content">
 	<div class="container" id="blog-container">
 		<div class="row">
-			<div class="col-md-8 " id="blog-main">
+			<div class="col-md-9 " id="blog-main">
 				<div class="edit"  field="content" rel="page">
 					 <h2>My blog</h2>
  
@@ -25,7 +25,7 @@ description: Blog
 					<module data-type="posts" />
 				</div>
 			</div>
-			<div class="col-md-3 col-md-offset-1" id="blog-sidebar">
+			<div class="col-md-3" id="blog-sidebar">
 				<?php include_once "blog_sidebar.php"; ?>
 			</div>
 		</div>

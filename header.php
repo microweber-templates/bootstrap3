@@ -15,8 +15,6 @@
 <?php $theme_css_file = get_option("bootswatch_theme_css_file", "bootswatch_theme"); ?>
 <?php if($theme_css_file == ''): ?>
 <link rel="stylesheet" id="bootstrap_theme" href="<?php print template_url() ?>css/default.css" type="text/css" media="all">
-<?php elseif($theme_css_file == 'bootstra_386'): ?>
-<link rel="stylesheet" id="bootstrap_theme" href="<?php print template_url() ?>css/styles/bootstra_386/css/bootstrap.css" type="text/css" media="all">
 <?php else: ?>
 <link rel="stylesheet" id="bootstrap_theme" href="<?php print $theme_css_file; ?>" type="text/css" media="all">
 <?php endif; ?>
@@ -42,4 +40,4 @@
     </div>
   </div>
 </div>
-<strong> 
+ 

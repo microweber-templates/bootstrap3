@@ -1,5 +1,13 @@
 <?php $theme = get_option("bootswatch_theme_css_file", "bootswatch_theme"); ?>
-<?php $themes = json_decode(file_get_contents(template_dir().'css/themes.json'),true); ?>
+<?php $themes = json_decode(file_get_contents(template_dir().'css/themes.json'),true);
+
+$other_theme = array("name"=>"Bootstra.386", "cssCdn"=>template_url('css/styles/bootstra_386/css/bootstrap.css'));
+$themes['themes'][] = $other_theme;
+
+
+$other_theme = array("name"=>"Violins", "cssCdn"=>template_url('css/styles/violins/style.css'));
+$themes['themes'][] = $other_theme;
+ ?>
 <script>
 
 $(document).ready(function() {
@@ -7,17 +15,14 @@ $(document).ready(function() {
 	  
 	    if (this.value == '') {
             window.parent.$('head link#bootstrap_theme').attr('href', '<?php print template_url() ?>css/default.css');
-        } else if (this.value == 'bootstra_386') {
-            window.parent.$('head link#bootstrap_theme').attr('href', '<?php print template_url() ?>css/styles/bootstra_386/css/bootstrap.css');
-        }
-        else {
+        }  else {
              window.parent.$('head link#bootstrap_theme').attr('href', this.value);
         }
     });
 });
 
 </script>
-
+ 
 <div class="mw-ui-box">
   <div class="mw-ui-box-header"> <span>Theme Colors</span> </div>
   <ul>
@@ -35,12 +40,7 @@ $(document).ready(function() {
     <?php endforeach; ?>
     
     
-    <li>
-      <label class="mw-ui-check">
-        <input class="mw_option_field" option-group="bootswatch_theme" type="radio" <?php if($theme == 'bootstra_386'): ?> checked="" <?php endif; ?> name="bootswatch_theme_css_file" value="bootstra_386">
-        <span></span><span>Bootstra.386</span> </label>
-    </li>
-    
+  
     
     
   </ul>
