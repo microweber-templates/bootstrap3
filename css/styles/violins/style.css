@@ -9,6 +9,18 @@ body {
 	background-color:black;
 	border-color:black;
 }
+
+.pagination li a {
+	background-color:white;
+	border-color:black;
+	color: black;
+}
+.pagination li a.active {
+	background-color:black;
+	border-color:black;
+	color: white;
+}
+
 .module-posts a.lead {
 	color: #333333;
 }
@@ -22,13 +34,10 @@ body {
 	color: #797979;
 	font-size: 12px;
 }
-
-.mw-post-list-blog .lead a{
+.mw-post-list-blog .lead a {
 	color: #000;
-		font-family: "Actor", "Open Sans", sans-serif;
-
+	font-family: "Actor", "Open Sans", sans-serif;
 }
-
 .portfolio-item.featured-list h3, .portfolio-item.featured-list h3 {
 	text-align:center;
 }

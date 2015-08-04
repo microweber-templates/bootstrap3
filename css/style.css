@@ -11,7 +11,7 @@
 .mw-rotator .thumbnail {
 	border: none;
 }
-.product-price-holder {
+.product-price-holder { 
 	text-align:center;
 	padding:10px;
 }
@@ -33,4 +33,10 @@
 }
 .container {
 	margin-bottom:20px;
+}
+.navbar .container {
+	margin-bottom:0px;
+}
+#menu .container {
+	margin-bottom:0px;
 }
