@@ -12,6 +12,7 @@
 <meta property="og:image" content="{content_image}">
 <meta property="og:description" content="{og_description}">
 <meta property="og:site_name" content="{og_site_name}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <?php $theme_css_file = get_option("bootswatch_theme_css_file", "bootswatch_theme"); ?>
 <?php if($theme_css_file == ''): ?>
 <link rel="stylesheet" id="bootstrap_theme" href="<?php print template_url() ?>css/default.css" type="text/css" media="all">
