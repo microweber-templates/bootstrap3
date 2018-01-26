@@ -28,7 +28,7 @@
 
                 <br/><br/>
                 <h4 class="element sidebar-title">Related Products</h4>
-                <module type="shop/products" related="true"/>
+                <module type="shop/products" related="true" limit="3"/>
                 <p class="element">&nbsp;</p>
             </div>
 
