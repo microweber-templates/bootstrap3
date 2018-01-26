@@ -13,10 +13,10 @@ description: Clean layout
 
 
 ?>
-<?php include template_dir(). "header.php"; ?>
-<section id="content">
-  <div class="container edit"  field="content" rel="content">
-    <p class="element">Type your text here</p>
-  </div>
-</section>
-<?php include template_dir(). "footer.php"; ?>
+<?php include template_dir() . "header.php"; ?>
+
+<div class="edit" rel="content" field="bootstrap3_content">
+    <!-- Do not remove this tag -- it is for the parser -->
+</div>
+
+<?php include template_dir() . "footer.php"; ?>

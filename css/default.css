@@ -122,3 +122,10 @@
 	background-image:none;
 	background:none;
 }
+
+
+.info-with-icons i.fa{
+	font-size: 20px;
+	width: 24px;
+	padding-right:5px;
+}

@@ -25,24 +25,25 @@
     <script>
         mw.lib.require('font_awesome');
     </script>
+    <link rel="stylesheet" href="<?php print template_url() ?>css/froala_blocks.css" type="text/css" media="all">
+
 </head>
 <body>
+
 <div role="navigation" class="navbar navbar-default navbar-static" id="menu">
     <div class="container">
-        <div class="edit" field="boostrap3-template-navbar-brand" rel="global">
-            <div class="mw-row">
-                <div class="mw-col" style="width: 20%">
-                    <div class="mw-col-container">
-                        <module type="logo" id="logo_header" default-text="Bootstrap" class="navbar-header"/>
-                    </div>
+        <div class="mw-row">
+            <div class="mw-col" style="width: 20%">
+                <div class="mw-col-container">
+                    <module type="logo" id="logo_header" default-text="Bootstrap" class="navbar-header"/>
                 </div>
-                <div class="mw-col" style="width: 80%">
-                    <div class="mw-col-container">
-                        <module type="menu" name="header_menu" id="main-navigation" template="navbar"/>
-                    </div>
+            </div>
+            <div class="mw-col" style="width: 80%">
+                <div class="mw-col-container">
+                    <module type="menu" name="header_menu" id="main-navigation" template="navbar"/>
                 </div>
             </div>
         </div>
     </div>
 </div>
- 
+

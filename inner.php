@@ -10,12 +10,11 @@
 
 ?>
 
- 
 
-<?php if(isset($content) and isset($content['subtype']) and $content['content_type'] == 'product'): ?>
-<?php include template_dir(). "layouts/shop_inner.php"; ?>
+<?php if (isset($content) and isset($content['subtype']) and $content['content_type'] == 'product'): ?>
+    <?php include template_dir() . "layouts/shop_inner.php"; ?>
 <?php else: ?>
-<?php include template_dir(). "layouts/blog_inner.php"; ?>
+    <?php include template_dir() . "layouts/blog_inner.php"; ?>
 <?php endif; ?>
 
 

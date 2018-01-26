@@ -13,4 +13,4 @@
 */
 
 ?>
-<?php include template_dir(). "layouts/shop_inner.php";  ?>
+<?php include template_dir() . "layouts/shop_inner.php"; ?>

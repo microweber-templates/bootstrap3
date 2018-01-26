@@ -8,12 +8,14 @@
 
 
 ?>
-<?php include template_dir(). "header.php"; ?>
-<div id="content">
-     <div class="container edit"  field="content" rel="content">
+<?php include template_dir() . "header.php"; ?>
+
+<div class="edit" rel="content" field="bootstrap3_content">
+    <div class="container nodrop">
         <div class="small-layout headed-box" id="sign-box">
-            <module="users/forgot_password" />
+            <module type="users/forgot_password"/>
         </div>
-     </div>
- </div>
-<?php include template_dir(). "footer.php"; ?>
+    </div>
+</div>
+
+<?php include template_dir() . "footer.php"; ?>
