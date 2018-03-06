@@ -17,7 +17,7 @@ position: 2
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="jumbotron">
+                <div class="jumbotron allow-drop">
                     <h1> Hello, world! </h1>
                     <p> This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a
                         starting

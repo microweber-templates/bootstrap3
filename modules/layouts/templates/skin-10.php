@@ -22,7 +22,7 @@ position: 10
             </div>
 
             <div class="mw-col" style="width: 50%;">
-                <div class="mw-col-container" style="padding-left: 40px;">
+                <div class="mw-col-container allow-drop" style="padding-left: 40px;">
                     <div>
                         <h3>Address</h3>
                         <hr>
