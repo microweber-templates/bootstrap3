@@ -15,7 +15,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <?php $theme_css_file = get_option("bootswatch_theme_css_file", "bootswatch_theme"); ?>
     <?php if ($theme_css_file == ''): ?>
-        <link rel="stylesheet" id="bootstrap_theme" href="<?php print template_url() ?>css/default.css" type="text/css" media="all">
+        <link rel="stylesheet" id="bootstrap_theme" href="<?php print template_url() ?>css/default.css" type="text/css"
+              media="all">
     <?php else: ?>
         <link rel="stylesheet" id="bootstrap_theme" href="<?php print $theme_css_file; ?>" type="text/css" media="all">
     <?php endif; ?>
@@ -30,20 +31,19 @@
 </head>
 <body>
 
-<div role="navigation" class="navbar navbar-default navbar-static" id="menu">
+<nav class="navbar navbar-default" id="menu">
     <div class="container">
-        <div class="mw-row">
-            <div class="mw-col" style="width: 20%">
-                <div class="mw-col-container">
-                    <module type="logo" id="logo_header" default-text="Bootstrap" class="navbar-header"/>
-                </div>
-            </div>
-            <div class="mw-col" style="width: 80%">
-                <div class="mw-col-container">
-                    <module type="menu" name="header_menu" id="main-navigation" template="navbar"/>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
 
+            <module type="logo" id="logo_header" default-text="Bootstrap"/>
+        </div>
+
+        <module type="menu" name="header_menu" class="collapse navbar-collapse" id="main-nav" template="navbar"/>
+    </div>
+</nav>
