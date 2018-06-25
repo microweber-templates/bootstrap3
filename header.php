@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="<?php print template_url() ?>css/froala_blocks.css" type="text/css" media="all">
 
 </head>
-<body>
+<body class="<?php print helper_body_classes(); ?>">
 
 <nav class="navbar navbar-default" id="menu">
     <div class="container">
