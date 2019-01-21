@@ -1,7 +1,7 @@
 <?php include template_dir() . "header.php"; ?>
 
 <div class="edit" rel="content" field="bootstrap3_content">
-    <div class="container nodrop">
+    <div class="container">
         <div class="row">
             <div class="col-sm-8">
                 <h2 class="edit" field="title" rel="post">Product inner page</h2>

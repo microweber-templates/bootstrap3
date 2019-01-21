@@ -35,11 +35,22 @@ $len =  count($data);
       </div>
       <div class="product-price-holder">
         <?php if($item['price']): ?>
+
+            <?php if($item['original_price']): ?>
+                <h4 class="text-center text-warning"><del><?php print currency_format($item['original_price']); ?></del></h4>
+            <?php endif; ?>
+
         <h4 class="text-center"><?php print currency_format($item['price']); ?></h4>
+
+
         <div class="text-center">
           <button class="btn btn-default" type="button" onclick="mw.cart.add_item('<?php print $item['id'] ?>');"><i class="icon-shopping-cart glyphicon glyphicon-shopping-cart"></i>&nbsp;<?php print $add_cart_text ?></button>
         </div>
         <?php endif; ?>
+
+
+
+
       </div>
     </div>
   </div>
