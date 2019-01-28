@@ -1,0 +1,15 @@
+{
+  "name": "microweber-templates/bootstrap3",
+  "description": "Bootstrap starter template.",
+  "homepage": "https://github.com/microweber-templates/bootstrap3",
+  "license": "MIT",
+  "keywords": [
+    "bootstrap3",
+    "responsive"
+  ],
+  "type": "microweber-template",
+  "extra": {
+    "folder": "bootstrap3",
+    "mw-version": "1.*"
+  }
+}
