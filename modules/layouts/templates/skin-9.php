@@ -11,8 +11,18 @@ position: 9
 */
 ?>
 
+<?php
+if (!$classes['padding_top']) {
+    $classes['padding_top'] = '';
+}
+if (!$classes['padding_bottom']) {
+    $classes['padding_bottom'] = '';
+}
 
-<div class="edit safe-mode nodrop" field="layout-skin-9-<?php print $params['id'] ?>" rel="module">
+$layout_classes = ' ' . $classes['padding_top'] . ' ' . $classes['padding_bottom'] . ' ';
+?>
+
+<div class="edit safe-mode nodrop <?php print $layout_classes; ?>" field="layout-skin-9-<?php print $params['id'] ?>" rel="module">
     <div class="container">
         <module type="google_maps"/>
         <br/>

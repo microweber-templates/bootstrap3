@@ -7,9 +7,6 @@
     "bootstrap3",
     "responsive"
   ],
-  "type": "microweber-template",
-  "extra": {
-    "folder": "bootstrap3",
-    "mw-version": "1.*"
-  }
+  "target-dir": "bootstrap3",
+  "type": "microweber-template"
 }
