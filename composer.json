@@ -1,12 +1,31 @@
 {
   "name": "microweber-templates/bootstrap3",
+  "type": "microweber-template",
   "description": "Bootstrap starter template.",
-  "homepage": "https://github.com/microweber-templates/bootstrap3",
-  "license": "MIT",
   "keywords": [
     "bootstrap3",
     "responsive"
   ],
-  "target-dir": "bootstrap3",
-  "type": "microweber-template"
+  "homepage": "https://github.com/microweber-templates/bootstrap3",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MW Team",
+      "email": "contacts@microweber.com"
+    }
+  ],
+  "support": [
+    {
+      "email": "support@microweber.com",
+      "issues": "https://github.com/microweber-templates/bootstrap3/issues",
+      "forum": "https://microweber.com/forum",
+      "wiki": "",
+      "irc": "https://webchat.freenode.net/?embed=1&channels=#microweber",
+      "source": "https://github.com/microweber-templates/bootstrap3",
+      "docs": "http://docs.microweber.com",
+      "rss": "",
+      "chat": ""
+    }
+  ],
+  "target-dir": "bootstrap3"
 }
