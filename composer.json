@@ -14,7 +14,7 @@
       "email": "contacts@microweber.com"
     }
   ],
-  "support": [
+  "support":
     {
       "email": "support@microweber.com",
       "issues": "https://github.com/microweber-templates/bootstrap3/issues",
@@ -25,7 +25,6 @@
       "docs": "http://docs.microweber.com",
       "rss": "",
       "chat": ""
-    }
-  ],
+    },
   "target-dir": "bootstrap3"
 }
