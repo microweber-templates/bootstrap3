@@ -19,12 +19,9 @@
       "email": "support@microweber.com",
       "issues": "https://github.com/microweber-templates/bootstrap3/issues",
       "forum": "https://microweber.com/forum",
-      "wiki": "",
       "irc": "https://webchat.freenode.net/?embed=1&channels=#microweber",
       "source": "https://github.com/microweber-templates/bootstrap3",
-      "docs": "http://docs.microweber.com",
-      "rss": "",
-      "chat": ""
+      "docs": "http://docs.microweber.com"
     },
   "target-dir": "bootstrap3"
 }
