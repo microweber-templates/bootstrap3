@@ -1,17 +1,17 @@
-﻿# Bootstrap3 Microweber template
+﻿# Bootstrap 3 Microweber template
 
-Bootstrap3 is a minimal, clean and original Microweber website template built on Bootstrap3 standards allowing you to create many website types including landing pages, complete website, coming soon … etc
+Bootstrap Starter is a minimal, clean and original Microweber website template built on Bootstrap3 standards allowing you to create many website types including landing pages, complete website, coming soon … etc.
 
-Moreover, with its +8 page templates Bootstrap Starter is flexible enough to reflect any kind of business /personal website with it’s generic design layouts and components.
+Moreover, with its +8 page templates Bootstrap Starter is flexible enough to reflect any kind of business /personal website by getting the benefit of this template’s generic design layouts and components.
 
-##Features:
+## Features:
 
-* Premade HomePage
+* Free Microweber Template
 * +8 Page Templates (Home, Services, Portfolio, blog ... others)
 * eCommerce Support  (Shop Page, Products Feed, Shopping Cart and Checkout Page)
 * Pixel Perfect Design
 * Fully Responsive Layout
-* User Friendly Code
+* User-Friendly Code
 * Clean Markup
 * Creative Design
 * Fully Responsive
@@ -19,4 +19,4 @@ Moreover, with its +8 page templates Bootstrap Starter is flexible enough to ref
 * Easy to Customize
 * Well Documented
 * Free Lifetime Updates
-* 24/7 Supports
+* Community Support
