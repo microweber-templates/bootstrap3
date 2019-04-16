@@ -3,7 +3,7 @@
 $config = array();
 $config['name'] = "Bootstrap3";
 $config['author'] = "Microweber";
-$config['version'] = 1.4;
+$config['version'] = 1.0;
 $config['url'] = "http://bootstrap.com";
 
 
