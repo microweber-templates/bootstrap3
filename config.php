@@ -5,7 +5,7 @@ $config['name'] = "Bootstrap3";
 $config['author'] = "Microweber";
 $config['version'] = 1.0;
 $config['url'] = "http://bootstrap.com";
-
+$config['framework'] = 'bootstrap3';
 
 $config['content'] = array();
 $config['content'][] = array(
